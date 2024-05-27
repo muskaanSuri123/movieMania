@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/movieMania/static/css/main.918a87df.css",
+    "main.js": "/movieMania/static/js/main.2ad867f8.js",
+    "index.html": "/movieMania/index.html",
+    "main.918a87df.css.map": "/movieMania/static/css/main.918a87df.css.map",
+    "main.2ad867f8.js.map": "/movieMania/static/js/main.2ad867f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.918a87df.css",
+    "static/js/main.2ad867f8.js"
+  ]
+}
