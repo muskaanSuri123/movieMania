@@ -1,0 +1,89 @@
+.movielist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  overflow-x: scroll;
+  flex-wrap: wrap; 
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 90%;
+  
+}
+.content {
+  margin-left: 10px;
+  position: relative;
+  transition: transform 0.2s;
+}
+.fav {
+
+margin:20px  ;
+width: 90%;
+overflow-x: scroll;
+flex-wrap: wrap; 
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+  background-color: aliceblue;
+}
+.top {
+  display: flex;
+  justify-content: flex-start;
+
+  align-items: center;
+  margin-left: 4px;
+}
+.content:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.content:hover .overlay {
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 98%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.App {
+
+  height: 100%;
+  width: 100%;
+
+  padding: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular'  ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+}
+
+
+ *{ 
+  background-color: rgb(71, 38, 103);
+  box-sizing: border-box;
+  margin: auto;
+  
+
+ }
+
+h2{ 
+  color:rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+
