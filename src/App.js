@@ -60,20 +60,21 @@ const App = () => {
 
   return (
     <div className="App">
-      
+
        <h2> MovieMania </h2>
-      <div className="row">
-        <div className="top">
+       <div className="top">
           <h2>Search movie name</h2>
           <Searchbox
             searchValue={searchValue}
             setSearchValue={setSearchValue}
           ></Searchbox>
         </div>
+      <div className="row">
+       
         <Movielist movies={movies} handlefavclick={addFav}  Overlaycomponent={AddFav}></Movielist>
-      </div>
+      </div>   <h2>Favourites</h2>
       <div  className="fav">
-        <h2>Favourites</h2>
+      
         <Movielist movies={favourite}  handlefavclick={removefavourite} Overlaycomponent={Removefav}></Movielist>{" "}
       </div>
     </div>

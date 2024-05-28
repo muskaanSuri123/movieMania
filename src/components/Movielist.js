@@ -1,4 +1,4 @@
-const Movielist = ({ movies, favourite, handlefavclick, Overlaycomponent }) => {
+const Movielist = ({ movies,  handlefavclick, Overlaycomponent }) => {
   return (
     <div className="movielist">
       {movies?.map((movie, index) => (
